@@ -1,15 +1,16 @@
+import React from "react";
 
 import './App.css';
 import Header from "./components/Header"
-import ContactUs from "./components/ContactUs"
-import HeaderBody from './components/HeaderBody';
+import HeaderBody from "./components/HeaderBody";
+import MainBody from "./components/MainBody"
 
 function App() {
   return (
     <div className="App">
         <Header />
         <HeaderBody />
-        <ContactUs />
+        <MainBody />
     </div>
   );
 }
