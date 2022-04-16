@@ -144,3 +144,66 @@
     border: 1px solid #000;
 }
 /* ----------------MAP-BLOCK----------------- */
+.ContactUs {
+    width: 520px;
+    height: 560px;
+    box-shadow: 0px 2px 10px 0px #8888881A;
+    border: 1px solid rgb(255, 255, 255);
+}
+.ContactUs_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 450px;
+    margin-top: 50px;
+
+}
+.ContactUs-inp {
+    width: 320px;
+    height: 34px;
+    border-radius: 10px;
+    padding: 10px 0 10px 20px;
+    box-shadow: 0px 2px 10px 0px #8888881A;
+    border: 1px solid #F8F8F8;
+    color: #C4C4C4;
+    opacity: 0.7;
+}
+.ContactUs__title {
+    font-size: 22px;
+    font-weight: 600;
+
+}
+.ContactUs__message {
+    width: 320px;
+    height: 102px;
+    padding: 10px 0 10px 20px;
+    box-shadow: 0px 2px 10px 0px #8888881A;
+    border: 1px solid #F8F8F8;
+    color: #C4C4C4;
+    opacity: 0.7
+}
+.ContactUs__inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 295px;
+}
+.ContactUs-btn {
+    height: 30px;
+    width: 140px;
+    background: rgb(0,82,212);
+    background: linear-gradient(90deg, rgba(0,82,212,1) 0%, rgba(67,100,247,1) 50%, rgba(111,177,252,1) 100%);
+    border-radius: 30px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 600;
+}
+.ContactUs_footer-text {
+    color: #B1B1B1;
+}
+.header__language--like {
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+}
