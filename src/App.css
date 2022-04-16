@@ -9,14 +9,14 @@
     font-size: 14px;
 }
 .header__contacts-language {
-    padding: 2px 0px 2px 0px;
+    padding: 4px 0px 4px 0px;
     background-color: #0A0043;
     color: #fff;
 }
 .header-container {
     display: flex;
     justify-content: space-between;
-    max-width: 1260px;
+    max-width: 66%;
     margin: 0 auto;
 }
 .header__contacts {
@@ -37,14 +37,19 @@
     color: #fff;
     font-family: "Montserrat";
 }
+.contact-block__text {
+    display: flex;
+    align-items: center;
+}
 .header__contacts-email-block {
     background: url("./components/Header/imgs/mail1.png") left/auto no-repeat
 }
 .header__contacts-numb-block {
     background: url("./components/Header/imgs/numb.png") left/auto no-repeat
 }
-.header__contacts-watsup-block {
-    background: url("./components/Header/imgs/whatsup.png") left/auto no-repeat
+.header-ws-icon {
+    position: relative;
+    right: 10px;
 }
 .contact-block__text {
     padding-left: 26px;
@@ -92,6 +97,7 @@
     background: url("./components/HeaderBody/imgs/Vector19.png") left/auto no-repeat;
 }
 .absolute-img--woman {
+    z-index: -500;
     position: absolute;
     top: 20px;
     right: 0;
@@ -100,9 +106,8 @@
     background: url("./components/HeaderBody/imgs/woman.png") right top/auto no-repeat;
 }
 .main__title-container {
-    margin-left: auto;
-    margin-right: 0;
-    width: 80%;
+    margin: 0 auto;
+    max-width: 66%;
     height: 480px;
     display: flex;
     align-items: center;
@@ -162,6 +167,7 @@
 }
 .ContactUs-inp {
     width: 320px;
+
     height: 34px;
     border-radius: 10px;
     padding: 10px 0 10px 20px;
@@ -177,6 +183,7 @@
 }
 .ContactUs__message {
     width: 320px;
+    
     height: 102px;
     padding: 10px 0 10px 20px;
     box-shadow: 0px 2px 10px 6px #8888881A;
@@ -210,18 +217,24 @@
     position: relative;
 }
 .main-body__container {
-    width: 1260px;
-    margin: 0 auto;
-}
-.info-networks__container {
-    width: 995px;
+    max-width: 1250px;
     margin: 0 auto;
 }
 .main-body__map-contact {
     display: flex;
+    margin:  0 auto;
+    margin-bottom: 76px;
+    width: 95%;
+    max-height: 95%;
     box-shadow: 0px 2px 10px 6px #8888881A;
     border: 1px solid rgb(255, 255, 255);
-    margin-bottom: 76px;
+    
+    
+}
+.main-body__map {
+    height: auto;
+    min-width: 500px;
+    max-width: 720px;
 }
 .main-body__title {
     display: flex;
@@ -252,7 +265,7 @@
     margin-left: 50px;
 }
 .main-body__li {
-    width: 33%;
+    flex: 0 1 33.333%;
     text-align: center;
     font-size: 16px;
     line-height: 27px;
@@ -267,16 +280,25 @@
 .main-body__social-networks {
     display: flex;
     justify-content: space-between;
-    max-width: 615px;
-    min-width: 500px;
+    width: 615px;
 }
 .main-body__social-networks-block {
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
 }
 .main-body__icon {
     position: relative;
-    top: 4px;
+    top: 5px;
     right: 9px;
+}
+.icon-text {
+    font-size: 14px;
+    color: #818181;
+}
+.network-icon {
+    position: relative;
+    top: 10px;
+    right: 8px;
 }
