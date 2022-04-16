@@ -1,13 +1,15 @@
 
 import './App.css';
-import Body from './components/Body/Body';
 import Header from "./components/Header"
+import ContactUs from "./components/ContactUs"
+import HeaderBody from './components/HeaderBody';
 
 function App() {
   return (
     <div className="App">
         <Header />
-        <Body />
+        <HeaderBody />
+        <ContactUs />
     </div>
   );
 }

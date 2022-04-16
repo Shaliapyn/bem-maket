@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Body = () => {
+const HeaderBody = () => {
   return (
     <div className='main'>
       <div className="absolute-img--figure"></div>
@@ -23,4 +23,4 @@ const Body = () => {
   )
 }
 
-export default Body
+export default HeaderBody

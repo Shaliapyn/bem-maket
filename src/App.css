@@ -15,14 +15,14 @@
 .header-container {
     display: flex;
     justify-content: space-between;
-    width: 68%;
+    max-width: 1260px;
     margin: 0 auto;
 }
 .header__contacts {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 45%;
+    min-width: 460px;
 }
 .header__language {
     display: flex;
@@ -77,7 +77,7 @@
 .header-van-logo__logo {
     padding: 10px 0px 10px 0px;
 }
-/* ---------------------BODY STYLES------------------ */
+/* ---------------------HEADER-BODY STYLES------------------ */
 .main {
     position: relative;
 }
@@ -87,7 +87,7 @@
     left: 0;
     width: 360px;
     height: 260px;
-    background: url("./components/Body/imgs/Vector19.png") left/auto no-repeat;
+    background: url("./components/HeaderBody/imgs/Vector19.png") left/auto no-repeat;
 }
 .absolute-img--woman {
     position: absolute;
@@ -95,7 +95,7 @@
     right: 0;
     width: 542px;
     height: 459px;
-    background: url("./components/Body/imgs/woman.png") right top/auto no-repeat;
+    background: url("./components/HeaderBody/imgs/woman.png") right top/auto no-repeat;
 }
 .main__title-container {
     margin-left: auto;
