@@ -39,7 +39,7 @@ const MainBody = () => {
               <li className="main-body__li--email main-body__li">
                 <h2 className="main-body__li--title">E-mail</h2>
                 <BsEnvelopeFill className="main-body__icon" />
-                <a href="https://www.google.com.ua/">sales@wtgspain.com</a>
+                <a className="main-body__li--text" href="https://www.google.com.ua/">sales@wtgspain.com</a>
               </li>
             </ul>
           </IconContext.Provider>

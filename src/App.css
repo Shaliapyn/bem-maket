@@ -168,14 +168,11 @@
 }
 .ContactUs-inp {
     width: 320px;
-
     height: 34px;
     border-radius: 10px;
     padding: 10px 0 10px 20px;
     box-shadow: 0px 2px 10px 6px #8888881A;
     border: 1px solid #F8F8F8;
-    color: #C4C4C4;
-    opacity: 0.7;
 }
 .ContactUs__title {
     font-size: 22px;
@@ -183,20 +180,24 @@
 
 }
 .ContactUs__message {
-    max-width: 320px;
-    max-height: 102px;
-
+    width: 320px;
+    height: 102px;
+    resize: none;
     padding: 10px 0 10px 20px;
     box-shadow: 0px 2px 10px 6px #8888881A;
     border: 1px solid #F8F8F8;
+}
+.ContactUs__message::placeholder {
     color: #C4C4C4;
-    opacity: 0.7
 }
 .ContactUs__inputs {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 295px;
+}
+.ContactUs-inp::placeholder {
+    color: #C4C4C4;
 }
 .ContactUs-btn {
     height: 30px;
@@ -299,6 +300,9 @@
     font-size: 22px;
     color: #000;
     font-weight: 600;
+}
+.main-body__li--text {
+    color: #818181;
 }
 .main-body__social-networks {
     display: flex;
