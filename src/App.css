@@ -202,12 +202,28 @@
     height: 30px;
     width: 140px;
     background: rgb(0,82,212);
-    background: linear-gradient(90deg, rgba(0,82,212,1) 0%, rgba(67,100,247,1) 50%, rgba(111,177,252,1) 100%);
+    background: linear-gradient(135deg, rgba(0,82,212,1) 0%, rgba(111,177,252,1) 59%, rgba(67,100,247,1) 83%);
+    background-size: 400% 400%;
     border-radius: 30px;
     font-size: 14px;
     color: #fff;
     font-weight: 600;
+    
 }
+.ContactUs-btn:hover {
+    animation: gradient 5s ease infinite;
+}
+@keyframes gradient {
+    0% {
+      background-position: 0 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0 50%;
+    }
+  }
 .ContactUs_footer-text {
     color: #B1B1B1;
     font-size: 12px;
@@ -449,7 +465,12 @@
     border-radius: 4px;
     color: #fff;
     background: rgb(0,82,212);
-    background: linear-gradient(90deg, rgba(0,82,212,1) 0%, rgba(67,100,247,1) 50%, rgba(111,177,252,1) 100%);
+    background: linear-gradient(162deg, rgba(0,82,212,1) 0%, rgba(67,100,247,1) 47%, rgba(111,177,252,1) 83%);
+    background-size: 400% 400%;
+    
+}
+.footer__networks-form--btn:hover {
+    animation: gradient 3s ease infinite;
 }
 .footer__last-text {
     display: block;
